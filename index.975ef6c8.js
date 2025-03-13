@@ -2951,7 +2951,7 @@ var _reactRouter = require("react-router");
 var _app = require("./App");
 const container = document.getElementById("app");
 const root = (0, _client.createRoot)(container);
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.BrowserRouter), {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.HashRouter), {
     basename: undefined,
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
         fileName: "src/index.js",
